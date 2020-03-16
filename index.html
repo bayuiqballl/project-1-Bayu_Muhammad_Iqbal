@@ -7,9 +7,16 @@
     <title>Profile</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <style>
+        section {
+            min-height: 420px;
+        }
+    </style>
+
 </head>
 
-<body>
+<body class="mt-5">
     <div class="pos-f-t">
         <div class="collapse" id="navbarToggleExternalContent">
             <div class="bg-dark p-4">
@@ -17,7 +24,7 @@
                 <span class="text-muted">Tell me about yourself.</span>
             </div>
         </div>
-        <nav class="navbar navbar-dark bg-dark fxed-top">
+        <nav class="navbar navbar-dark bg-dark fixed-top">
             <button class="navbar-toggler" type="button" data-toggle="collapse"
                 data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
                 aria-expanded="false" aria-label="Toggle navigation">
@@ -25,32 +32,102 @@
             </button>
         </nav>
     </div>
-
     <div class="jumbotron jumbotron-fluid">
 
         <div class="container text-center">
-            <img src="img/photo.jpg" alt="" width="300" height="390">
+            <img src="img/photo.jpg" alt="" width="200" height="290" class="img-thumbnail">
             <br><br>
             <h1 class="display-4">Bayu Muhammad Iqbal</h1>
             <p class="lead">Impact Byte Bootcamp Scholarship</p>
         </div>
     </div>
 
-    <div class="container">
-        <div class="row">
-            <div class="col text-center">
-                <h1>About</h1>
+    <section id="about">
+        <div class="container">
+            <div class="row mb-4">
+                <div class="col text-center">
+                    <h2>About</h2>
+                </div>
+            </div>
+            <div class="row justify-content-center ">
+                <div class="col-md-5 text-left mb-5">
+                    <p>My name is Bayu Muhammad Iqbal, I was born in Boyolali on October 30, 1999.
+                        I am the second child of 3 siblings. I am an alumni of the Surakarta 2N SMK. My strengths are
+                        that I am critical, easy and open minded, while my weakness is that I am forgetful, skeptical
+                        and sometimes underestimate the small things.
+                        I once attended the School Internship program at SMK 2 Surakarta as an IT Technician.</p>
+                </div>
+                <div class="col-md-5 text-left">
+                    <p>My hobbies are reading books, browsing and playing games. I am very happy to add knowledge,
+                        especially in the field of IT / Web Developer. I also take some free or paid courses such as
+                        Udemy, Code Farmers, BuildWithAngga, DuniaIlkom. Besides, I like to attend seminars & workshops
+                        related to Web Developer, Cyber ​​Security or IT-related matters.
+                                 Since Impact Byte opened a bootcamp scholarship program and I am grateful as a
+                        recipient of the scholarship program. Hopefully, taking part in this bootcamp program can
+                        provide coding and Developer skills and work as a Programmer in the Web Developer field. That's
+                        all my self-introduction.</p>
+                </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque aliquam ipsam nostrum exercitationem.
-                    Tempore eum iusto corrupti dicta aperiam harum fuga ipsum quaerat repellendus! Cum rem ab provident
-                    dolor architecto.</p>
-            </div>
-        </div>
-    </div>
+    </section>
 
+    <section id="future " class="bg-light pt-4">
+        <div class="container">
+            <div class="row mb-4 pt-4">
+                <div class="col text-center">
+                    <h2>Future Career</h2>
+                </div>
+            </div>
+
+            <div class="row mb-4">
+                <div class="col-md">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/thumb/1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title"><b>Software Engineer</b></h5>
+                            <p class="card-text"> software engineer is a person who applies the principles of software
+                                engineering to the design, development, maintenance, testing, and evaluation of computer
+                                software.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md mb-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/thumb/2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title"><b>Backend Developer</b></h5>
+                            <p class="card-text">Back-end Development refers to the server-side development. It is the
+                                term used for the behind-the-scenes activities that happen when performing any action on
+                                a website.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md mb-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/thumb/3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title"><b>Software House</b></h5>
+                            <p class="card-text">A software company is a company whose primary products are various
+                                forms of software, software technology, distribution, and software product development.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+    <footer class="page-footer font-small bg-dark mt-5">
+        <div class="footer-copyright text-center py-3 text-light">© 2020 Copyright:
+            <a href="https://github.com/bayuiqballl">My Github</a>
+        </div>
+    </footer>
 
 
 
